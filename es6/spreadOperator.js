@@ -1,4 +1,5 @@
 /** SPREAD -> [VALORES] => LISTA DE VALORES **/
+/** SPREAD -> {VALORES} => LISTA DE VALORES **/
 
 function printMessage(a) {
   console.log(a);

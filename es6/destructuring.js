@@ -17,7 +17,11 @@ const user = {
   username: 'jwt',
   role: 'ADMIN',
   firstName: 'Juan',
+  lastName: 'Escobar',
 };
+
+const { firstName, lastName, ...rest } = user;
+console.log(firstName, lastName, rest);
 
 const { username, role, firstName: nombre } = user;
 console.log(username, role, nombre);

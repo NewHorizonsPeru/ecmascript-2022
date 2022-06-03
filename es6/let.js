@@ -1,3 +1,4 @@
+/** NO EXISTE HOISTING **/
 let globlaScopeVar = 'Variable Global Scope';
 console.log(globlaScopeVar);
 
